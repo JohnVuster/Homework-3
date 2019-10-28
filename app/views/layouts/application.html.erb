@@ -10,6 +10,15 @@
   </head>
 
   <body>
+<div id="name"> Appointment Manager<br>
+<%= link_to "Physicians", physicians_path %>
+<%= link_to 'Appointments', appointments_path %>
+<%= link_to "Patients", patients_path %>
+</div>
+
+
+
+
     <%= yield %>
   </body>
 </html>
